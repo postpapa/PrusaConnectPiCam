@@ -8,8 +8,8 @@ import os
 
 def send_snapshot():
     camera = picamera.PiCamera()
-    current_path = os.path.dirname(os.path.realpath(__file__))  # Aktueller Pfad des Python-Skripts
-    image_path = os.path.join(current_path, 'snapshot.jpg')  # Vollständiger Pfad zur Schnappschussdatei
+    current_path = os.path.dirname(os.path.realpath(__file__))
+    image_path = os.path.join(current_path, 'snapshot.jpg')
     url = 'https://connect.prusa3d.com/c/snapshot'
     headers = {
         'Token': 'CAMERATOKEN',
