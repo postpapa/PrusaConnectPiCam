@@ -8,36 +8,32 @@ Setup a PiCam to connect to PrusaConnect via python
 2. Scroll down to the "Other cameras" section and click "Add new other camera"  
 ![Screenshot_3](https://github.com/postpapa/PrusaConnectPiCam/assets/22226501/9137034c-559e-414a-b533-fb60a02a0762)
 
-3. Click the pencil and give the new created "Other camera" a name which is longer than 16 characters. This will be the "fingerprint" for later in the setup. Dont forget to click the checkmark. Dont worry, we'll change the name later in the process  
-![Screenshot_4](https://github.com/postpapa/PrusaConnectPiCam/assets/22226501/5057ed37-9c33-4eb3-861a-02c3856d8c1c)  
-![Screenshot_5](https://github.com/postpapa/PrusaConnectPiCam/assets/22226501/2e413ed8-0c72-431e-bd3f-66555953f8ae)
-
-4. Connect to your pi, clone the git repo and go into the new created folder  
+3. Connect to your pi, clone the git repo and go into the new created folder  
    ```
    sudo apt install git
    git clone https://github.com/postpapa/PrusaConnectPiCam
    cd PrusaConnectPiCam
    ```
 
-5. run the setup.py and enter the requested infos  
+4. run the setup.py and enter the requested infos  
 `python3 setup.py`
 
-   5.1 Enter the fingerprint. Its the name you gave your "Other camera" in step 3  
-   5.2 Enter the token. You can find the token below the name of your "Other camera"  
-   ![Screenshot_6](https://github.com/postpapa/PrusaConnectPiCam/assets/22226501/ba722813-3081-4993-9766-c5fdda9b5516)  
-   5.3 Enter an alternative name for your "Other camera"  
-   5.4 If everything went well you should see "Request was successful." in the terminal  
-   5.4.1 You may need to install `pip3` and `requests` lib
+   4.1 Enter the token. You can find the token below the name of your "Other camera"  
+   ![Screenshot_8](https://github.com/postpapa/PrusaConnectPiCam/assets/22226501/ee01478d-62b7-4048-b7d3-58dbad1cfb28)  
+   4.2 Enter an alternative name for your "Other camera"  
+   4.3 If everything went well you should see "Request was successful." in the terminal  
+   4.3.1 You may need to install `pip3` and `requests` lib
    ```
    sudo apt update
    sudo apt install python3-pip
    sudo pip3 install requests
    ```
 
-7. Check on the PrusaConnect site if the name of your "Other camera" was changed and the status changed to "Registered"  
-![Screenshot_7](https://github.com/postpapa/PrusaConnectPiCam/assets/22226501/bc0e9214-d80e-47d0-b040-3a22df333475)
+5. Check on the PrusaConnect site if the name of your "Other camera" was changed and the status changed to "Registered"  
+![Screenshot_9](https://github.com/postpapa/PrusaConnectPiCam/assets/22226501/c001c6e0-81ed-447d-975a-c72214006c0b)
 
-8. run the "sendscreenshots.py" script to test the uploading part. after a while you should see an image on your PrusaConnect Camera tab
+
+6. run the "sendscreenshots.py" script to test the uploading part. after a while you should see an image on your PrusaConnect Camera tab
 `python3 sendscreenshot.py`
 
    ![Screenshot 2023-10-03 084004](https://github.com/postpapa/PrusaConnectPiCam/assets/22226501/7c8cba94-d457-41b0-a6fd-1925c66f34ac)
