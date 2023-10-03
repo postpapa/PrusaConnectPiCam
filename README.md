@@ -33,7 +33,7 @@ Setup a PiCam to connect to PrusaConnect via python
 ![Screenshot_9](https://github.com/postpapa/PrusaConnectPiCam/assets/22226501/c001c6e0-81ed-447d-975a-c72214006c0b)
 
 
-6. run the "sendscreenshots.py" script to test the uploading part. after a while you should see an image on your PrusaConnect Camera tab
+6. run the "sendscreenshots.py" script to test the uploading part. after a while you should see an image on your PrusaConnect Camera tab  
 `python3 sendscreenshot.py`
 
    ![Screenshot 2023-10-03 084004](https://github.com/postpapa/PrusaConnectPiCam/assets/22226501/7c8cba94-d457-41b0-a6fd-1925c66f34ac)
