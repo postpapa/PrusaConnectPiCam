@@ -3,8 +3,7 @@ import json
 import os
 import uuid
 
-fingerprint = uuid.uuid4()
-fingerprint = str(fingerprint)
+fingerprint = str(uuid.uuid4())
 token = input("Enter the Token for the 'Other camera': ")
 new_name = input("Enter a new name for the 'Other camera' for easier recognition: ")
 
