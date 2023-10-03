@@ -34,7 +34,7 @@ Setup a PiCam to connect to PrusaConnect via python
    sudo pip3 install requests
    ```
 
-7. Check on the PrusaConnect site if the name of your "Other camera" was changed and the status changed to "Registered"
+7. Check on the PrusaConnect site if the name of your "Other camera" was changed and the status changed to "Registered"  
 ![Screenshot_7](https://github.com/postpapa/PrusaConnectPiCam/assets/22226501/bc0e9214-d80e-47d0-b040-3a22df333475)
 
 8. run the "sendscreenshots.py" script to test the uploading part. after a while you should see an image on your PrusaConnect Camera tab
