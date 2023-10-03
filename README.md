@@ -12,7 +12,7 @@ Setup a PiCam to connect to PrusaConnect via python
 ![Screenshot_4](https://github.com/postpapa/PrusaConnectPiCam/assets/22226501/5057ed37-9c33-4eb3-861a-02c3856d8c1c)  
 ![Screenshot_5](https://github.com/postpapa/PrusaConnectPiCam/assets/22226501/2e413ed8-0c72-431e-bd3f-66555953f8ae)
 
-4. Connect to your pi and clone the git repo and go into the new created folder  
+4. Connect to your pi, clone the git repo and go into the new created folder  
    ```
    sudo apt install git
    git clone https://github.com/postpapa/PrusaConnectPiCam
