@@ -1,8 +1,10 @@
 import requests
 import json
 import os
+import uuid
 
-fingerprint = input("Enter fingerprint (Name you gave the 'Other camera'): ")
+fingerprint = uuid.uuid4()
+fingerprint = str(fingerprint)
 token = input("Enter the Token for the 'Other camera': ")
 new_name = input("Enter a new name for the 'Other camera' for easier recognition: ")
 
