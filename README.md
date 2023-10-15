@@ -27,6 +27,7 @@ Setup a PiCam to connect to PrusaConnect via python
    sudo apt update
    sudo apt install python3-pip
    sudo pip3 install requests
+   sudo pip3 install picamera
    ```
 
 5. Check on the PrusaConnect site if the name of your "Other camera" was changed and the status changed to "Registered"  
